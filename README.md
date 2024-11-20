@@ -27,7 +27,8 @@ Oh, we’re not quite there yet, but here’s a little taste of what’s cooking
 
 Stay tuned for the full course—lots of exciting features and flavors coming your way soon. 🍽️
 
-![Homepage Screenshot](link-to-your-screenshot)
+<img width="1660" alt="Screenshot 2024-11-20 at 5 58 36 PM" src="https://github.com/user-attachments/assets/8d604dea-927a-484a-b18d-28375373ea55">
+
 
 ## Features
 - **Recipe Browsing**: Browse a variety of recipes based on categories, ingredients, and difficulty levels.
