@@ -24,7 +24,10 @@ Oh, we’re not quite there yet, but here’s a little taste of what’s cooking
 
 Stay tuned for the full project of exciting features and flavors coming your way soon. 🍽️
 
-<img width="1660" alt="Screenshot 2024-11-20 at 5 58 36 PM" src="https://github.com/user-attachments/assets/8d604dea-927a-484a-b18d-28375373ea55">
+
+https://github.com/user-attachments/assets/9c160e1a-868f-407e-939b-b3843a9412f5
+
+
 
 
 ## Features
