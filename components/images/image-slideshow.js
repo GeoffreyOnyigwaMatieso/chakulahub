@@ -9,6 +9,10 @@ import macncheeseImg from '@/assets/macncheese.jpg';
 import pizzaImg from '@/assets/pizza.jpg';
 import schnitzelImg from '@/assets/schnitzel.jpg';
 import tomatoSaladImg from '@/assets/tomato-salad.jpg';
+import misheveve from '@/assets/misheveve.jpg';
+import nyamachoma from '@/assets/nyama_choma.jpg';
+import wali_wa_mnazi from '@/assets/wali_wa_mnazi.jpg';
+import smocha from '@/assets/smosha.jpg';
 import classes from './image-slideshow.module.css';
 
 const images = [
@@ -19,6 +23,10 @@ const images = [
   { image: pizzaImg, alt: 'A delicious pizza' },
   { image: schnitzelImg, alt: 'A delicious schnitzel' },
   { image: tomatoSaladImg, alt: 'A delicious tomato salad' },
+  { image: misheveve, alt: 'traditional kenyan meal'},
+  { image: nyamachoma, alt: 'Grilled meat paired with kachumbari'},
+  { image: wali_wa_mnazi, alt: 'creamy coconut rice dish'},
+  { image: smocha, alt: 'spicy sausage and chill mixture of soft chapati'}
 ];
 
 export default function ImageSlideshow() {

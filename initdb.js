@@ -24,6 +24,103 @@ const dummyMeals = [
     creator: 'EmilyBaraza',
     creator_email: 'emilybaraza@example.com',
   },
+   {
+      title: 'Wali wa Mnazi',
+      slug: 'wali-wa-mnazi',
+      image: '/images/wali_wa_mnazi.jpg',
+      summary: 'A delicious and creamy coconut rice dish, a staple in Swahili cuisine, often paired with stews or vegetable sides.',
+      instructions: `
+      1. Prepare the coconut milk:
+         Grate fresh coconut and extract 2 cups of thick coconut milk. Keep 1 cup of thin coconut milk separately.
+   
+      2. Wash and cook the rice:
+         Rinse 2 cups of white rice until the water runs clear. In a pot, combine the rice with thin coconut milk, 1 cup of water, and a pinch of salt. Cook on medium heat until the liquid is absorbed.
+   
+      3. Add thick coconut milk:
+         Lower the heat, add the thick coconut milk, and gently stir. Cover the pot and let the rice steam for another 10 minutes until fluffy and creamy.
+   
+      4. Serve:
+         Serve warm, garnished with fresh coconut flakes or accompanied by a flavorful stew.
+      `,
+      creator: 'Juma Bakari',
+      creator_email: 'jumabakari@example.com'
+   },
+   {
+      title: 'Nyama Choma with Kachumbari',
+      slug: 'nyama-choma-kachumbari',
+      image: '/images/nyama_choma.jpg',
+      summary: 'A classic Kenyan dish of grilled meat paired with Kachumbari, a fresh and zesty tomato and onion salad, perfect for gatherings and celebrations.',
+      instructions: `
+      Nyama Choma:
+      1. Prepare the meat:
+         Select 1 kg of goat, beef, or chicken. Marinate with salt, pepper, garlic, and a squeeze of lemon juice. Allow to rest for 30 minutes.
+   
+      2. Grill the meat:
+         Heat a charcoal grill to medium heat. Place the meat on the grill and cook slowly, turning occasionally, until evenly charred and fully cooked (about 45-60 minutes).
+   
+      Kachumbari:
+      1. Prepare the vegetables:
+         Finely chop 3 tomatoes, 1 red onion, 1 chili (optional), and a handful of fresh cilantro. Place in a bowl.
+   
+      2. Season:
+         Add salt to taste, juice of 1 lemon, and a drizzle of olive oil. Toss to combine.
+   
+      Serve:
+      Arrange the grilled meat on a platter and serve with Kachumbari on the side. Enjoy warm with ugali or as is.
+      `,
+      creator: 'Nderitu-muciri',
+      creator_email: 'nderitumuciri@example.com'
+   },
+   {
+      title: 'Misheveve - Traditional Kenyan Meal',
+      slug: 'misheveve-kenyan-meal',
+      image: '/images/misheveve.jpg',
+      summary: 'A wholesome and colorful traditional Kenyan dish made with boiled maize kernels, kidney beans, and pumpkin leaves, often paired with avocado and chili sauce.',
+      instructions: `
+      1. Prepare maize and beans:
+         Boil maize kernels and kidney beans together until tender.
+
+      2. Cook pumpkin leaves:
+         Wash and chop fresh pumpkin leaves. Sauté in a pan with a little oil and onions until softened.
+
+      3. Assemble the meal:
+         Arrange the boiled maize and beans on a plate alongside the sautéed pumpkin leaves.
+
+      4. Add sides:
+         Serve with sliced avocado and a small bowl of chili sauce for extra flavor.
+
+      5. Enjoy:
+         Relish this nutritious and traditional meal, perfect for a homely experience.
+      `,
+      creator: 'Jane Mwangi',
+      creator_email: 'janemwangi@example.com'
+   },
+
+      {
+         title: 'Smocha - Kenyan Street Food',
+         slug: 'smocha-kenyan-street-food',
+         image: '/images/smosha.jpg',
+         summary: 'A popular Kenyan street food made by wrapping a spicy sausage and chili mixture in soft chapati bread, delivering a flavorful and fiery snack.',
+         instructions: `
+         1. Prepare the sausage:
+            Grill or fry the sausage until fully cooked and slightly crispy on the outside.
+   
+         2. Make the chili sauce:
+            In a small bowl, mix chopped fresh chilies, diced onions, tomatoes, and a squeeze of lemon juice. Add a pinch of salt to taste.
+   
+         3. Warm the chapati:
+            Heat the chapati briefly on a pan to make it pliable and warm.
+   
+         4. Assemble the smocha:
+            Place the sausage on the chapati, spread the chili sauce generously over the sausage, and roll it tightly to form a wrap.
+   
+         5. Serve:
+            Enjoy this spicy and satisfying street food as a quick snack or meal.
+         `,
+         creator: 'Wanjiku Kariuki',
+         creator_email: 'wanjikukariuki@example.com'
+   }
+   ,  
   {
     title: 'Spicy Curry',
     slug: 'spicy-curry',
