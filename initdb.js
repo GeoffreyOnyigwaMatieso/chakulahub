@@ -2,6 +2,54 @@ const sql = require('better-sqlite3');
 const db = sql('meals.db');
 
 const dummyMeals = [
+   {
+      title: "Matoke",
+      slug: "matoke",
+      image: "/images/matoke.jpg",
+      summary: "A hearty East African dish made with plantains simmered in a flavorful tomato-based sauce, often served as a main or side dish.",
+      instructions: `
+        1. Prepare the plantains:
+           Peel 6-8 unripe plantains and cut them into large chunks. Set aside in a bowl of water to prevent browning.
+    
+        2. Make the sauce:
+           Heat 2 tablespoons of oil in a pot. Sauté 1 diced onion and 2 minced garlic cloves until soft. Add 2 chopped tomatoes, 1 diced bell pepper, and cook until the mixture thickens.
+    
+        3. Add the plantains:
+           Drain the plantains and add them to the pot. Pour in 1-2 cups of water or broth, and season with salt, pepper, and a pinch of turmeric.
+    
+        4. Cook:
+           Cover the pot and simmer on low heat for 20-30 minutes, stirring occasionally, until the plantains are tender and have absorbed the sauce.
+    
+        5. Serve:
+           Serve warm as a standalone meal or alongside your favorite stew or greens.
+      `,
+      creator: "Joyce Nyakundi",
+      creator_email: "joycenyakundi@example.com"
+    },
+    {
+      title: "Mutura",
+      slug: "mutura",
+      image: "/images/mutura.jpg",
+      summary: "A popular Kenyan street food made from goat, lamb, or cow intestines stuffed with spiced ground meat, fat, and blood, then grilled to perfection.",
+      instructions: `
+        1. Prepare the stuffing:
+           Mix 500g of ground meat (goat, lamb, or beef) with 1 finely chopped onion, 2 minced garlic cloves, 1 teaspoon grated ginger, 1 diced chili, and a handful of chopped fresh herbs (like cilantro). Add salt, pepper, and 1 cup of animal blood, and mix well.
+    
+        2. Clean the intestines:
+           Thoroughly wash the intestines with warm water and lemon juice to remove any impurities. Turn them inside out and rinse again.
+    
+        3. Stuff the intestines:
+           Use a funnel to carefully stuff the seasoned mixture into the intestines. Tie off the ends with string or toothpicks, ensuring they are securely sealed.
+    
+        4. Cook the Mutura:
+           Pre-boil the stuffed intestines in lightly salted water for 20-30 minutes to ensure they are cooked through. Then, transfer them to a hot charcoal grill and roast for 10-15 minutes, turning occasionally, until browned and crispy.
+    
+        5. Serve:
+           Slice the Mutura into bite-sized pieces and serve warm with kachumbari (tomato and onion salad) and a squeeze of fresh lemon juice.
+      `,
+      creator: "Getrude Nyokabi",
+      creator_email: "getrudenyokabi@example.com"
+    },
   {
     title: 'Juicy Cheese Burger',
     slug: 'juicy-cheese-burger',

@@ -13,6 +13,8 @@ import misheveve from '@/assets/misheveve.jpg';
 import nyamachoma from '@/assets/nyama_choma.jpg';
 import wali_wa_mnazi from '@/assets/wali_wa_mnazi.jpg';
 import smocha from '@/assets/smosha.jpg';
+import mutura from '@/assets/mutura.jpg';
+import matoke from '@/assets/matoke.jpg';
 import classes from './image-slideshow.module.css';
 
 const images = [
@@ -26,7 +28,9 @@ const images = [
   { image: misheveve, alt: 'traditional kenyan meal'},
   { image: nyamachoma, alt: 'Grilled meat paired with kachumbari'},
   { image: wali_wa_mnazi, alt: 'creamy coconut rice dish'},
-  { image: smocha, alt: 'spicy sausage and chill mixture of soft chapati'}
+  { image: smocha, alt: 'spicy sausage and chill mixture of soft chapati'},
+  { image: matoke, alt: 'plantains simmered in a flovourful tomato based source'},
+  { image: mutura, alt: 'popular streetfood made from goat lamb or cow interstines'}
 ];
 
 export default function ImageSlideshow() {
