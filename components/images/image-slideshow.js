@@ -15,6 +15,7 @@ import wali_wa_mnazi from '@/assets/wali_wa_mnazi.jpg';
 import smocha from '@/assets/smosha.jpg';
 import mutura from '@/assets/mutura.jpg';
 import matoke from '@/assets/matoke.jpg';
+import githeri from '@/assets/githeri.webp';
 import classes from './image-slideshow.module.css';
 
 const images = [
@@ -30,7 +31,8 @@ const images = [
   { image: wali_wa_mnazi, alt: 'creamy coconut rice dish'},
   { image: smocha, alt: 'spicy sausage and chill mixture of soft chapati'},
   { image: matoke, alt: 'plantains simmered in a flovourful tomato based source'},
-  { image: mutura, alt: 'popular streetfood made from goat lamb or cow interstines'}
+  { image: mutura, alt: 'popular streetfood made from goat lamb or cow interstines'},
+  { image: githeri, alt: 'A wholesome Kenyan vegetarian dish made with corn and beans'}
 ];
 
 export default function ImageSlideshow() {

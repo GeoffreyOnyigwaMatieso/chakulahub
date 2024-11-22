@@ -50,6 +50,30 @@ const dummyMeals = [
       creator: "Getrude Nyokabi",
       creator_email: "getrudenyokabi@example.com"
     },
+    {
+      title: "Githeri",
+      slug: "githeri",
+      image: "/images/githeri.webp",
+      summary: "A wholesome Kenyan vegetarian dish made with corn and beans, simmered together in a flavorful tomato-based stew.",
+      instructions: `
+        1. Boil the corn and beans:
+           In a large pot, boil 2 cups of dried beans (soaked overnight) and 2 cups of corn kernels with enough water to cover them. Cook until tender, about 1-2 hours.
+    
+        2. Prepare the stew:
+           Heat 2 tablespoons of cooking oil in a pan. Add 1 diced onion and sauté until golden brown. Stir in 2 chopped tomatoes and cook until soft and saucy.
+    
+        3. Combine:
+           Add the boiled corn and beans to the tomato mixture. Mix well and season with salt, pepper, and a pinch of curry powder (optional).
+    
+        4. Optional potatoes:
+           If using potatoes, peel and dice 2 medium-sized potatoes and add them to the pot with a little water. Simmer until the potatoes are soft and flavors are well combined.
+    
+        5. Serve:
+           Garnish with fresh cilantro and serve hot as a standalone meal or with chapati.
+      `,
+      creator: "Brian Kamau",
+      creator_email: "briankamau@example.com"
+    },
   {
     title: 'Juicy Cheese Burger',
     slug: 'juicy-cheese-burger',
